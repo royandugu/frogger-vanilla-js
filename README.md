@@ -11,8 +11,12 @@ and pass the river. The third obstacle again are the cars.
 In the game above, we have little monsters(just a yellow square with a face) instead of cars and a green square with a face
 instead of a frog.
 
-***Recursive Algorithm for monster and log movement***
 
-***Issue***
+
+**Recursive Algorithm for monster and log movement**
+
+
+
+**Issue**
 1. When the page is hidden, the game starts to break. (uneven setInterval)  
 
