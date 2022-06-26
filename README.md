@@ -19,4 +19,4 @@ instead of a frog.
 
 **Issue**
 1. When the page is hidden, the game starts to break. (uneven setInterval)  
-
+2. The game is not device responsive << Only for PC >>
