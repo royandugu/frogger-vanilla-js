@@ -1,0 +1,112 @@
+body{
+    background:url("textures/galaxy.jpg");
+}
+.header{
+    text-align: center;
+    background:rgba(0,0,0,.5);
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.header>h1{
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grandContainer{
+    background:rgba(0,0,0,.5);
+    margin-top:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.parentContainer{
+    width:480px;
+    background:url("textures/walkable.svg");
+}
+.container{
+    display:flex;
+    height:480px;
+    width:480px;
+    flex-flow:wrap;
+}
+.container>div{
+    height:30px;
+    width:30px;
+    border:1px solid transparent;
+}
+.frog{
+    background:url("textures/frog.svg");
+    background-size:100%;
+}
+.road{
+    background:url("textures/road.svg");
+    background-size:contain;
+}
+.river{
+    background:url("textures/river.svg");
+    background-size: contain;
+}
+.car{
+    background:url("textures/car.svg");
+    background-size: 100%;
+}
+.log{
+    background:url("textures/log.svg");
+    background-size:100%;
+}
+.deadFrog{
+    background:url("textures/deadFrog.svg");
+    background-size:contain;
+}
+.destination{
+    background:url("textures/destination.svg");
+    background-size: contain;
+}
+.endDialog{
+    background-color:rgb(192, 192, 192); 
+    border:1px solid rgb(180, 180, 180);
+    border-radius:10px;
+    position:absolute;
+    top:0;
+    margin-left:35%;
+    text-align:center;
+    width:30%;
+    transform: translateY(-100%);
+    transition: 1s ease-in-out;
+}
+.endDialog>img{
+    height:250px;
+    width:250px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.endDialog>button{
+    margin-bottom:20px;
+    padding:10px;
+    width:40%;
+}
+.endDialog>h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom:20px;
+}
+.getDown{
+    transform: translateY(0%) !important;
+}
+.infoContainer{
+    margin-top:20px;
+}
+.info{
+    margin-top:10px;
+    background:rgba(0,0,0,.5);
+    text-align: center;
+    padding:5px;
+}
+.info>img{
+    margin-bottom:5px;
+}
+.info>*{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.info>h1{
+    font-size:20px;
+}

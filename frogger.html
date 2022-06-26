@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Frogger - Demo </title>
+        <link rel="stylesheet" type="text/css" href="frogger.css"/>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    </head>
+    <body>
+        <div class="header">
+            <h1> Fro<span class="text-danger">gg</span>er...... </h1>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-12 infoContainer">
+                    <div class="info">
+                        <h1> Enemies </h1> 
+                        <img src="./textures/car.svg"/>
+                        <p> These are the enemies that are constantly roaming around
+                            to kill the player. Make sure to not encounter them </p> 
+                    </div>
+                    <div class="info">
+                        <h1> River </h1>
+                        <img src="./textures/river.svg"/>
+                        <p> These are rivers. Make sure to avoid them. The player doesnot 
+                            know how to swim
+                        </p>
+                    </div>
+                    <div class="info">
+                        <h1> Logs </h1>
+                        <img src="./textures/log.svg"/>
+                        <p> These are logs floating on the river. You can cross the river by stepping
+                            on these logs.
+                        </p> 
+                    </div>
+                </div>
+                    
+                    
+                <div class="col-lg-6 col-md-6 col-12 grandContainer">
+                    <div class="parentContainer">
+                        <div class="container"></div>
+                    </div>
+                </div>
+        
+                <div class="col-lg-3 col-md-3 col-12 infoContainer">
+                    <div class="info">
+                        <h1> Destination </h1>
+                        <img src="./textures/destination.svg"/>
+                        <p> This represents the destination. You have to cross all the blockades you have
+                            in your way and step on top of this to win the game </p>
+                    </div>
+                    <div class="info">
+                        <h1> Dead Frog </h1>
+                        <img src="./textures/deadFrog.svg"/>
+                        <p> This represents the dead frog. This will be your player's state when it encounters 
+                            an enemy or it falls into the river </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="endDialog">
+            <img src="./textures/crown.png" class="representation"/><br>
+            <h4 class="message"> </h4> 
+            
+            <button class="btn btn-primary"> Restart </button>
+        </div>
+        
+        
+        
+    </body>
+    <script type="text/javascript" src="frogger.js"></script>
+</html>
