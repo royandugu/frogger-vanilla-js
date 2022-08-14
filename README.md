@@ -13,6 +13,7 @@ instead of a frog.
 
 
 
+
 **Recursive Algorithm for monster and log movement**
 
 
@@ -20,3 +21,7 @@ instead of a frog.
 **Issue**
 1. When the page is hidden, the game starts to break. (uneven setInterval)  
 2. The game is not device responsive << Only for PC >>
+
+
+
+![1](https://user-images.githubusercontent.com/95025114/184540148-df4c4c05-f39d-423f-bf72-887cb64bb885.jpg)
